@@ -73,19 +73,42 @@ body {
 }
 
 .teachers {
-  height: 300px;
+  height: 400px;
   margin: 10px 0;
-  background: #FF0000; /* fallback for old browsers */
+  background: #ff0000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #93291e,
-    #FF0000
+    #ff0000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #93291e,
-    #FF0000
+    #ff0000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.what-is-programming {
+  font-family: Bebas Neue;
+  font-size: 39px;
+  margin: auto 0;
+  padding: 10px 0;
+  color: #DDDDDD;
+  background-color: #93291e;
+}
+.programming-is {
+    font-family: Scope One;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 30px 100px;
+}
+.footer {
+    font-family: Bebas Neue;
+    font-size: 50px;
+    color: red;
+    margin: auto;
+    text-align: center;
+    background-color: #171717;
 }
 
 @media (max-width: 805px) {
