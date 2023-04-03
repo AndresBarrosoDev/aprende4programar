@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Bebas Neue;
+  src: url("assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: Scope One;
+  src: url("assets/fonts/Scope_One/ScopeOne-Regular.ttf");
+}
+* {
+  margin: 0;
+}
+body {
+  background-color: #222222;
+}
+.text-center {
+  text-align: center;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: nowrap;
+}
+.justify-content {
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Bebas Neue;
+  font-size: 50px;
+  color: red;
+  margin: auto 6px;
+  /* -webkit-text-stroke: 1px black; */
+}
+
+.aprende4programar {
+  font-family: Bebas Neue;
+  font-size: 44px;
+  margin: auto 0;
+  color: #ffffff;
+}
+.w-auto {
+  width: auto;
+}
+.h-66 {
+  height: 66px;
+}
+.text-center {
+  text-align: center;
+}
+.social {
+  padding: 9px;
+  margin: auto;
+  cursor: pointer;
+}
+.speech {
+  font-family: Scope One;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.social:hover {
+  background-color: red;
+}
+
+#promo {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#promo.show {
+  opacity: 1;
+}
+
+.teachers {
+  height: 300px;
+  margin: 10px 0;
+  background: #FF0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #FF0000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93291e,
+    #FF0000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 805px) {
+  .flex-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 200px;
+    flex-grow: 9999;
+  }
+}
