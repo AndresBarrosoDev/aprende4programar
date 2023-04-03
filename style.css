@@ -118,4 +118,7 @@ body {
     flex-basis: 200px;
     flex-grow: 9999;
   }
+  .programming-is {
+    margin: 30px 50px;
+    }
 }
