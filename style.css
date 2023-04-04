@@ -12,13 +12,15 @@
 body {
   background-color: #222222;
 }
+
 .inspiration {
   background-color: #171717;
 }
+
 .logo {
   font-family: Bebas Neue;
   font-size: 50px;
-  color: red;
+  color: #6441A5;
   margin: auto 6px;
   /* -webkit-text-stroke: 1px black; */
 }
@@ -44,7 +46,7 @@ body {
 }
 
 .social:hover {
-  background-color: red;
+  background-color: #6441A5;
 }
 
 .teachers {
@@ -52,17 +54,17 @@ body {
   background: #ff0000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #93291e,
-    #ff0000
+    #493274,
+    #6441A5
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #93291e,
-    #ff0000
+    #493274,
+    #6441A5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .info-container {
-  background-color: #93291e;
+  background-color: #493274;
 }
 
 .what-is-programming {
@@ -79,10 +81,11 @@ body {
     color: #ffffff;
     margin: 30px 100px;
 }
+
 .footer {
     font-family: Bebas Neue;
     font-size: 50px;
-    color: red;
+    color: #6441A5;
     margin: auto;
     text-align: center;
     background-color: #171717;
@@ -92,6 +95,7 @@ a.svg {
   position: relative;
   display: inline-block; 
 }
+
 a.svg:after {
   content: ""; 
   position: absolute;
