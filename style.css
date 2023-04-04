@@ -12,19 +12,9 @@
 body {
   background-color: #222222;
 }
-.text-center {
-  text-align: center;
+.inspiration {
+  background-color: #171717;
 }
-.d-flex {
-  display: flex;
-}
-.flex-wrap {
-  flex-wrap: nowrap;
-}
-.justify-content {
-  justify-content: space-between;
-}
-
 .logo {
   font-family: Bebas Neue;
   font-size: 50px;
@@ -39,42 +29,26 @@ body {
   margin: auto 0;
   color: #ffffff;
 }
-.w-auto {
-  width: auto;
-}
-.h-66 {
-  height: 66px;
-}
-.text-center {
-  text-align: center;
-}
+
 .social {
   padding: 9px;
   margin: auto;
   cursor: pointer;
 }
+
 .speech {
   font-family: Scope One;
   font-size: 20px;
   text-align: center;
   color: #ffffff;
 }
+
 .social:hover {
   background-color: red;
 }
 
-#promo {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-#promo.show {
-  opacity: 1;
-}
-
 .teachers {
-  height: 400px;
-  margin: 10px 0;
+  height: 50vh;
   background: #ff0000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -87,6 +61,9 @@ body {
     #ff0000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.info-container {
+  background-color: #93291e;
+}
 
 .what-is-programming {
   font-family: Bebas Neue;
@@ -94,7 +71,7 @@ body {
   margin: auto 0;
   padding: 10px 0;
   color: #DDDDDD;
-  background-color: #93291e;
+  
 }
 .programming-is {
     font-family: Scope One;
@@ -111,8 +88,21 @@ body {
     background-color: #171717;
 }
 
+a.svg {
+  position: relative;
+  display: inline-block; 
+}
+a.svg:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+
 @media (max-width: 805px) {
-  .flex-wrap {
+  .adapt-to-phone {
     flex-wrap: wrap;
     justify-content: center;
     flex-basis: 200px;
@@ -120,5 +110,6 @@ body {
   }
   .programming-is {
     margin: 30px 50px;
-    }
+  }
 }
+

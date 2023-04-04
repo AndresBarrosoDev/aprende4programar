@@ -1,0 +1,24 @@
+.text-center {
+  text-align: center;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: nowrap;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.w-auto {
+  width: auto;
+}
+.h-66 {
+  height: 66px;
+}
+.m-auto-0 {
+  margin: auto 0;
+}
+.p-9 {
+  padding: 9px;
+}
