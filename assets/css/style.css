@@ -1,10 +1,10 @@
 @font-face {
   font-family: Bebas Neue;
-  src: url("assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+  src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
 }
 @font-face {
   font-family: Scope One;
-  src: url("assets/fonts/Scope_One/ScopeOne-Regular.ttf");
+  src: url("../fonts/Scope_One/ScopeOne-Regular.ttf");
 }
 * {
   margin: 0;
@@ -31,13 +31,6 @@ body {
   margin: auto 0;
   color: #ffffff;
 }
-
-.social {
-  padding: 9px;
-  margin: auto;
-  cursor: pointer;
-}
-
 .speech {
   font-family: Scope One;
   font-size: 20px;
@@ -45,12 +38,9 @@ body {
   color: #ffffff;
 }
 
-.social:hover {
-  background-color: #6441a5;
-}
 
 .teachers {
-  height: 50vh;
+  height: 60vh;
   /* background: black;  */
   /* background: -webkit-linear-gradient(
     to right,
@@ -67,7 +57,7 @@ body {
 .QA {
   background-color: #222222;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .info-container {
@@ -100,6 +90,7 @@ body {
 a.svg {
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
 a.svg:after {

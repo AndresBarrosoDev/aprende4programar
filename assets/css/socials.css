@@ -1,0 +1,26 @@
+.social {
+  padding: 9px;
+  margin: auto;
+  cursor: pointer;
+}
+.tiktok:hover {
+  background-color: #B11E3B;
+}
+.instagram:hover {
+  background-color: #962FBF;
+}
+.youtube:hover {
+  background-color: #FF0000;
+}
+.twitter:hover {
+  background-color: #1D9BF0;
+}
+.discord:hover {
+  background-color: #5865F2;
+}
+.linkedin:hover {
+  background-color: #0274B3;
+}
+.github:hover {
+  background-color: #171717;
+}
