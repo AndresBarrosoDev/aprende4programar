@@ -1,0 +1,5 @@
+#myCanvas {
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+}
