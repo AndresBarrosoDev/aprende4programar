@@ -1,8 +1,17 @@
 #myCanvas {
-    margin: auto;
-    position: absolute;
-    z-index: -1;
-    width:  100%;
-    height: 100%;
-    margin: 0;
+  background: -webkit-linear-gradient(
+    to left,
+    var(--senary-color),
+    var(--septenary-color)
+  );
+  background: linear-gradient(
+    to left,
+    var(--senary-color),
+    var(--septenary-color)
+  );
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }

@@ -1,3 +1,12 @@
+:root {
+  --primary-color: #6441A5;
+  --secondary-color: #493274;
+  --tertiary-color: #ffffff;
+  --quaternary-color: #dddddd;
+  --quinary-color: #222222;
+  --senary-color: #171717;
+  --septenary-color: #000000;
+}
 @font-face {
   font-family: Bebas Neue;
   src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
@@ -10,17 +19,17 @@
   margin: 0;
 }
 body {
-  background-color: #222222;
+  background-color: var(--quinary-color);
 }
 
 .inspiration {
-  background-color: #171717;
+  background-color: var(--senary-color);
 }
 
 .logo {
   font-family: Bebas Neue;
   font-size: 50px;
-  color: #6441a5;
+  color: var(--primary-color);
   margin: auto 6px;
   /* -webkit-text-stroke: 1px black; */
 }
@@ -29,13 +38,13 @@ body {
   font-family: Bebas Neue;
   font-size: 44px;
   margin: auto 0;
-  color: #ffffff;
+  color: var(--tertiary-color);
 }
 .speech {
   font-family: Scope One;
   font-size: 20px;
   text-align: center;
-  color: #ffffff;
+  color: var(--tertiary-color);
 }
 
 
@@ -44,24 +53,24 @@ body {
   /* background: black;  */
   /* background: -webkit-linear-gradient(
     to right,
-    #493274,
-    #6441A5
+    var(--secondary-color),
+    var(--primary-color)
   ); 
   background: linear-gradient(
     to right,
-    #493274,
-    #6441A5
+    var(--secondary-color),
+    var(--primary-color)
   ); */
 }
 
 .QA {
-  background-color: #222222;
+  background-color: var(--quinary-color);
   position: relative;
   z-index: 1;
 }
 
 .info-container {
-  background-color: #493274;
+  background-color: var(--secondary-color);
 }
 
 .what-is-programming {
@@ -69,22 +78,22 @@ body {
   font-size: 39px;
   margin: auto 0;
   padding: 10px 0;
-  color: #dddddd;
+  color: var(--quaternary-color);
 }
 .programming-is {
   font-family: Scope One;
   font-size: 20px;
-  color: #ffffff;
+  color: var(--tertiary-color);
   padding: 30px 100px;
 }
 
 .footer {
   font-family: Bebas Neue;
   font-size: 50px;
-  color: #6441a5;
+  color: var(--primary-color);
   margin: auto;
   text-align: center;
-  background-color: #171717;
+  background-color: var(--senary-color);
 }
 
 a.svg {
