@@ -3,11 +3,15 @@
   margin: auto;
   cursor: pointer;
 }
+.whatsapp:hover {
+  background-color: #1BD741;
+}
 .tiktok:hover {
-  background-color: #B11E3B;
+  background-color: #FD3E3E;  
+  filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
 }
 .instagram:hover {
-  background-color: #962FBF;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .youtube:hover {
   background-color: #FF0000;
@@ -22,5 +26,5 @@
   background-color: #0274B3;
 }
 .github:hover {
-  background-color: #171717;
+  background-color: #000000;
 }
