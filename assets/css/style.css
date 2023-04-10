@@ -110,6 +110,6 @@ a.svg:after {
     flex-grow: 9999;
   }
   .programming-is {
-    margin: 30px 50px;
+    padding: 30px 50px;
   }
 }
