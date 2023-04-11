@@ -13,8 +13,8 @@ var MAX_OFFSET = 400;
 var SPACING = 4;
 var POINTS = MAX_OFFSET / SPACING;
 var PEAK = MAX_OFFSET * 0.25;
-var POINTS_PER_LAP = 6;
-var SHADOW_STRENGTH = 6;
+var POINTS_PER_LAP = 8;
+var SHADOW_STRENGTH = 5;
 
 setup();
 

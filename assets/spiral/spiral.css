@@ -1,25 +1,23 @@
 #myCanvas {
   background: -webkit-linear-gradient(
-    to left,
+    to top,
     var(--senary-color),
     var(--septenary-color)
   );
   background: linear-gradient(
-    to left,
+    to top,
     var(--senary-color),
     var(--septenary-color)
   );
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 100%;
+  height: 80%;
   margin: 0;
 }
 
 @media (max-width: 805px) {
   #myCanvas {
-    width: 100%;
-    height: 70%;
   }
 }
 
