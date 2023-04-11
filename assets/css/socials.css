@@ -2,6 +2,7 @@
   padding: 9px;
   margin: auto;
   cursor: pointer;
+  transition: 400ms ease;
 }
 .whatsapp:hover {
   background-color: #1BD741;
@@ -12,6 +13,7 @@
 }
 .instagram:hover {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  background: -webkit-linear-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .youtube:hover {
   background-color: #FF0000;

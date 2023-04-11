@@ -17,9 +17,19 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   background-color: var(--quinary-color);
+}
+body::-webkit-scrollbar {
+  width: 0.438rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--septenary-color);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
 }
 
 .inspiration {
@@ -28,21 +38,21 @@ body {
 
 .logo {
   font-family: Bebas Neue;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: var(--primary-color);
-  margin: auto 6px;
+  margin: auto 0.375rem;
   /* -webkit-text-stroke: 1px black; */
 }
 
 .aprende4programar {
   font-family: Bebas Neue;
-  font-size: 44px;
+  font-size: 2.75rem;
   margin: auto 0;
   color: var(--tertiary-color);
 }
 .speech {
   font-family: Scope One;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   color: var(--tertiary-color);
 }
@@ -75,21 +85,21 @@ body {
 
 .what-is-programming {
   font-family: Bebas Neue;
-  font-size: 39px;
+  font-size: 2.438rem;
   margin: auto 0;
-  padding: 10px 0;
+  padding: 0.625rem 0;
   color: var(--quaternary-color);
 }
 .programming-is {
   font-family: Scope One;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--tertiary-color);
-  padding: 30px 100px;
+  padding: 1.875rem 6.25rem;
 }
 
 .footer {
   font-family: Bebas Neue;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: var(--primary-color);
   margin: auto;
   text-align: center;
@@ -115,10 +125,10 @@ a.svg:after {
   .adapt-to-phone {
     flex-wrap: wrap;
     justify-content: center;
-    flex-basis: 200px;
+    flex-basis: 12.5rem;
     flex-grow: 9999;
   }
   .programming-is {
-    padding: 30px 50px;
+    padding: 1.25rem 3.125rem;
   }
 }
